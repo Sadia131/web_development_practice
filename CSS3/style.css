@@ -1,0 +1,25 @@
+.box{
+    width: 400px;
+    height: 200px;
+    border: 2px solid paleturquoise;
+    overflow: scroll;
+}
+.box2{
+    width: 400px;
+    height: 200px;
+    border: 2px solid paleturquoise;
+   
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rebeccapurple;
+    
+}
+.outer{
+    background-color: rosybrown;
+}
+.inner{
+    background-color: sandybrown;
+    transform: scale(.5) rotate(20deg);
+}
