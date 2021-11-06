@@ -4,7 +4,11 @@
     margin-top: 20px;
     place-items: center;
 }
-.top-players{
+.courses{
+    float: left;
+    place-items: center;
+}
+.top-players, .courses{
     grid-template-columns: repeat(3, 1fr);
 }
 .blogs{
@@ -12,7 +16,6 @@
 }
 .player, .blog{
     display: flex;
-    align-items: center;
 }
 .player img{
     height: 50px;
@@ -22,12 +25,27 @@
     height: 200px;
     margin-right: 20px;
 }
+.course img{
+    height: 250px;
+    width: 330px;
+    margin: 30px;
+   
+}
+.course-detail{
+    text-align: center;
+}
 
 main{
     width: 1200px;
     max-width: 90%;
     margin: 0 auto;
 }
+.filled{
+    color: goldenrod;
+ }
+ .unfilled{
+     color: lightgray;
+ }
 @media (max-width:992px){
     .top-players{
         grid-template-columns: repeat(2, 1fr);
